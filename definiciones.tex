@@ -1,0 +1,52 @@
+\section{Definiciones}
+
+\textbf{Programa}: Conjunto de objetos que colaboran enviándose mensajes. \\
+
+\textbf{Objeto}: Representación de un ente del dominio del problema. \\
+
+\textbf{Ente}: es todo sobre lo que podamos pensar o hablar. \\
+
+\textbf{Escencia}: es lo que hace que una cosa sea lo que es. \\
+
+\textbf{Claboración}:
+\begin{itemize}
+\item Sincronicas
+\item Dirigidas
+\item Siempre existe respuesta
+\item El receptor desconoce al emisor
+\end{itemize}
+
+\textbf{Contrato}:
+\begin{itemize}
+	\item Implícito
+	\item Explícito
+\end{itemize}
+
+\textbf{Excepcion}: Se levanta cuando se rompe el contrato. Cuándo se debe levantar una excepcion depende de que tipo de software se va a diseñar. \\
+
+\textbf{Fail Fast}: Levantar la excepcion lo antes posible para poder reaccionar rapido \\
+
+Maneras de definir un contrato:
+\begin{itemize}
+\item Precondiciones
+\item Postcondiciones
+\item Invariantes
+\end{itemize}
+
+Metaprogramacion:
+\begin{itemize}
+\item Estructural - Lectura
+\item Estructural - Escritura
+\item Comportamiento - Lectura
+\item Comportamiento - Escritura
+\end{itemize}
+
+\begin{tabular}{|l|c|c|c|}
+\hline
+					& Especifico de lenguaje	& Concreta o abstracta	& Negocio \\ \hline
+Idiom	 			& Si						& Concreta				& Generica \\ \hline
+Patrones de diseño 	& No						& Abstractas 			& Generica \\ \hline
+Framework 			& Si						& Concretos				& Particular \\ \hline
+\end{tabular}
+
+Decorator: Su intencion es agregar funcionalidad ortogonal dinamicamente a un objeto
